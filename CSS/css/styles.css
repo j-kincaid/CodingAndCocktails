@@ -1,0 +1,173 @@
+
+/*
+********************Colors*****************
+dark-purple #2B2E4A;
+burnt orange #F6490D;
+orange-red #FF5335;
+teal #3E92A3; #53354A;
+
+gray #DFE0D4;
+orange #F6490D;
+navy blue #2B2E4A;
+turquoise #F6490D;
+********************************************
+
+/* Reset */
+ html, body, div, h1, h2, h3, h4, h5, h6, p, a,
+ img, li, aside, footer, nav, section {
+         margin: 0;
+         padding: 0;
+         border: 0;
+         font-size: 100%;
+         font: inherit;
+         font-family: 'Josefin Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+ }
+ @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald');
+
+body {
+  background-color: #DFE0D4;
+  font-family: 'Oswald', 'Arial', 'Helvetica', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2B2E4A;
+  font-family: 'Josefin Sans', 'Arial', 'Helvetica', sans-serif;
+}
+
+nav {
+  background-color: #F6490D;
+  border-bottom: 5px solid #2B2E4A;
+  font-family: 'Josefin Sans', 'Arial', 'Helvetica', sans-serif;
+  text-align: right;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  padding: 2px;
+  display: inline;
+}
+nav a {
+  padding: 6px 20px;
+  display: inline-block;
+  color: #2B2E4A;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+nav a:hover {
+    background-color: #DFE0D4;
+}
+.hero {
+  height: 600px;
+  background: url("https://raw.githubusercontent.com/KansasCityWomeninTechnology/CSSCompilerPractice/master/images/hero.jpg") no-repeat center top;
+  background-size: cover;
+}
+.hero h1, h2, p {
+  color: #2B2E4A;
+}
+.hero h1 {
+  font-size: 5em;
+}
+.hero h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+.hero p {
+    font-size: 1.25em;
+}
+.hero-text {
+  padding-top: 125px;
+  width: 50%;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+.drinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.drinks h2 {
+  font-size: 3em;
+  margin: 5px;
+}
+.drinks .head {
+  font-size: 2em;
+}
+.drinks p {
+  font-size: 1.3em;
+}
+.drinks img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 20px;
+  float: left;
+}
+.drinks ul li {
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+.drinks .item {
+  border-top: 1px dotted #F6490D;
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+.sidebar  {
+  background-color: #F6490D;
+  font-size: 1.5em;
+}
+.sidebar h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 5px 0;
+}
+.sidebar ul {
+  list-style-type: none;
+}
+.sidebar ul li {
+  margin-top: 50px;
+}
+/*
+.sidebar ul li + li {
+  margin-top: 50px;
+}
+*/
+.sidebar ul li:first-child {
+  margin-top: 0;
+}
+
+footer {
+    background-color: #F6490D;
+    border-top: 5px solid #2B2E4A;
+    height: 75px;
+}
+footer p {
+  color: #DFE0D4;
+  text-align: center;
+  border-bottom: 15px;
+}
+footer ul {
+  list-style-type: none;
+  display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer li {
+  display: inline-block;
+}
+footer i {
+  color: #2B2E4A;
+    padding: 2px 10px;
+}
+footer a:hover {
+  background-color: #F6490D;
+}

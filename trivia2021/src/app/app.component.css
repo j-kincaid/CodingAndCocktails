@@ -1,0 +1,22 @@
+.app-container {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    background: #666b8f;
+    color: white;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  footer {
+    padding: 0.75rem 0;
+  }
