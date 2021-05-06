@@ -1,1 +1,1 @@
-# trivia2021
+# Coding projects made at monthly events.
