@@ -61,7 +61,7 @@ export class TriviaComponent implements OnInit {
       },
       {
         correct: false,
-        text: 'Madeline Albright'
+        text: 'Madeleine Albright'
       },
       {
         correct: false,
