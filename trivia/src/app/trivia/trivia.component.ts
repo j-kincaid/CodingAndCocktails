@@ -28,23 +28,44 @@ export class TriviaComponent implements OnInit {
     ]
   },
   {
-    text: 'In a quarter-mile race, which animal can be expected to win?',
+    text: 'Whose experiment overturned the theory of parity in physics?',
     answers: [
       {
         correct: false,
-        text: 'Lion'
+        text: 'Marie Curie'
+      },
+      {
+        correct: false,
+        text: 'Rosalind Franklin'
       },
       {
         correct: true,
-        text: 'Pronghorn Antelope'
+        text: 'Chien-Shiung Wu'
       },
       {
         correct: false,
-        text: 'Quarter Horse'
+        text: 'Katherine Johnson'
+      }
+    ]
+  },
+  {
+    text: 'Who was named the first woman Treasury Secretary of the United States?',
+    answers: [
+      {
+        correct: false,
+        text: 'Hillary Rodham Clinton'
+      },
+      {
+        correct: true,
+        text: 'Janet Yellen'
       },
       {
         correct: false,
-        text: 'Giraffe'
+        text: 'Madeline Albright'
+      },
+      {
+        correct: false,
+        text: 'Ruth Bader Ginsberg'
       }
     ]
   }

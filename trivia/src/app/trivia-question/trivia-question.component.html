@@ -3,6 +3,7 @@
    <li *ngFor="let answer of question.answers; let i=index">
        <!-- the structural directive iterates 
         through question.answers -->
-      <button class="answer" (click)="onAnswerSelected(i)">{{answer.text}}</button>
+      <button class="answer" 
+      (click)="onAnswerSelected(i)">{{answer.text}}</button>
    </li>
 </ul>
