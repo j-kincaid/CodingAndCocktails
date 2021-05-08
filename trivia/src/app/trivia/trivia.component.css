@@ -12,3 +12,16 @@ div {
     color: #484e78;
     margin-bottom: 2rem;
   }
+  .results {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #484e78;
+  }
+  
+  .score {
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ba99c0;
+  }

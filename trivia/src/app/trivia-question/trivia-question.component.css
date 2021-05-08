@@ -1,0 +1,36 @@
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+ 
+ li + li {
+   margin: 1rem 0;
+ }
+ 
+ li {
+   transition: all 0.5s ease;
+ }
+ 
+ button {
+   font: inherit;
+   font-weight: 600;
+   color: white;
+   background: #666b8f;
+   padding: 1rem 2rem;
+   margin: 4px 2px;
+   border-radius: 0.25rem;
+   cursor: pointer;
+   transition-duration: 0.4s;
+ }
+ 
+ .answer {
+   background: white;
+   color: #666b8f;
+   border: 2px solid #ba99c0;
+ }
+ 
+ .answer:hover {
+   color: white;
+   background: #666b8f;
+ }

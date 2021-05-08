@@ -1,7 +1,21 @@
-<div class="trivia">
-
-    <section>
-      <p class="question-tracker">Questions {{questions.length}}</p>
-    </section>
-  
-  </div>
+<div>
+<section>
+<p class="question-tracker">Questions {{questions.length}}</p>
+<app-trivia-question 
+*ngFor="let item of questions" 
+[question]="item" (answeredEvent)="onQuestionAnswered($event)">
+</app-trivia-question>
+<ul>
+   <li>
+      <button class="answer">Answer</button>
+   </li>
+</ul>
+</section>
+<section class="results" *ngIf="true">
+   <p>
+     You answered {{correctAnswers}} out of {{questions.length}} questions correctly.
+   </p>
+   <p class="score">Your score is {{correctAnswers / questions.length | percent}}</p>
+   <p>Grab a cocktail &amp; celebrate!</p>
+ </section>
+</div>
