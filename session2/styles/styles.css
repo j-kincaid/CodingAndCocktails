@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Code+Pro&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Source+Code+Pro&display=swap');
 
 html, body, div, h1, h2, h3, h4, h5, h6, p, a,
 img, li, aside, footer, nav, section {
@@ -12,6 +12,7 @@ img, li, aside, footer, nav, section {
 
 body {
     background-color: #fefaec;
+    /* font-family: 'Noto Sans', sans-serif; */
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -19,6 +20,8 @@ h1,
 h2, 
 h3 {
     color: #637056;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
 }
 
 /* Accessibility feedback: I happen to have blue-green color blindness and my vision is declining a little, so I can be a tester. We ask 'Do you see the color of your header change?' It's hard to see the color change unless I look really hard. Could we add a screen shot snippet to the worksheet? The green text on that purple background from the example is really hard to read. */
@@ -26,7 +29,7 @@ h3 {
 nav, 
 footer {
     background-color: #484e78;
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 nav {
