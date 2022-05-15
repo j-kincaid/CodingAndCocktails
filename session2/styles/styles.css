@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
 
 
 html, body, div, h1, h2, h3, h4, h5, h6, p, a,
@@ -10,26 +10,29 @@ img, li, aside, footer, nav, section {
   font: inherit;
 }
 
+
 body {
-    background-color: #fefaec;
-    /* font-family: 'Noto Sans', sans-serif; */
-    font-family: 'Source Code Pro', monospace;
+    background-color: #f2fde4;
+    font-family: 'Comfortaa', cursive;
 }
 
 h1, 
 h2, 
 h3 {
-    color: #637056;
-    font-family: 'Noto Sans', sans-serif;
-    /* font-family: 'Source Code Pro', monospace; */
+    color: #022902;
+    font-family: 'Pacifico', cursive;
 }
 
+p {
+    color: #022902;
+}
 /* Accessibility feedback: I happen to have blue-green color blindness and my vision is declining a little, so I can be a tester. We ask 'Do you see the color of your header change?' It's hard to see the color change unless I look really hard. Could we add a screen shot snippet to the worksheet? The green text on that purple background from the example is really hard to read. */
+
 
 nav, 
 footer {
-    background-color: #484e78;
-    font-family: 'Noto Sans', sans-serif;
+    background-color: #7e3ff2;
+    font-family: 'Pacifico', cursive;
 }
 
 nav {
@@ -79,7 +82,7 @@ main li:hover {
 }
 
 .drinks {
-    background-color: #9d81a2;
+    background-color: #d2c2fd;
     padding-bottom: 60px;
 }
 
